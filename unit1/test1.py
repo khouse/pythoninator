@@ -1,8 +1,6 @@
 #!/bin/python
-
-s = 'string'
-t = 'ring'
-i = 2
-
-print s.find(t)[:i]
-
+x = 6.349838
+num = x + 0.5
+s = str(num)
+dot = s.find('.')
+print s[:dot]
